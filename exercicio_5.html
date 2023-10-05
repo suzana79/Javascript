@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Asgard</h1>
+    <label for="Nome"></label>
+    <input type="text" id="nome" placeholder="Escreva seu nome"></input>
+    <button id="meuBotao">Não clique neste botão!</button>
+    <p id="minhaMensagem"></p>
+    <script>
+        document.getElementbyId("meuBotao").addEventListener("click",
+        function () { 
+             var nome= document.getElementById("nome").value;
+             if(nome){ 
+            document.getElementById("minhaMensagem").innerHTML = "Good morning,People" + nome + "!";
+        } else { 
+            document.getElementById("minhaMensagem").innerHTML = "Digite seu nome aqui";
+        }
+    });
+
+    document.getElementById("meuBotao").addEventListener("click",
+        function () {
+            document.getElementById("minhaMensagem").innerHTML = "Hello, World!";
+        }
+        );
+    </script>
+</body>
+
