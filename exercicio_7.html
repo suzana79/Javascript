@@ -4,16 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página HTML com JavaScript</title>
+    <title>Filmes Favoritos</title>
     <style>
         body {
+            min-height: 100%;
+            background-image: url(koifish.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
             font-family: Arial, sans-serif;
+            color: #ab0015;
             text-align: center;
             margin: 20px;
         }
 
         h1 {
-            color: #333;
+            color: #ffffff;
         }
 
         label {
@@ -26,7 +33,7 @@
         }
 
         button {
-            background-color: #007BFF;
+            background-color: #ab0015;
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -49,7 +56,8 @@
 </head>
 
 <body>
-    <h1>Exemplo de Página HTML com JavaScript</h1>
+    <h1>Lista de Filmes 🎬</h1>
+   
 
     <label for="nome">Digite o nome do seu filme favorito!</label>
     <input type="text" id="nome" placeholder="Seu filme">
