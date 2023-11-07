@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif; /* Define a fonte principal para Arial, com uma fonte de fallback em sans-serif caso Arial não esteja disponível. */
     text-align: center; /* Centraliza o texto no corpo da página. */
-    background-color: rgb(245, 173, 229); /* Define a cor de fundo como um tom de cinza claro. */
+    background-color: rgb(207, 118, 240); /* Define a cor de fundo como um tom de cinza claro. */
 }
 
 /* Estiliza o contêiner do tabuleiro */
@@ -21,7 +21,7 @@ body {
     font-size: 24px; /* Define o tamanho da fonte como 24px. */
     text-align: center; /* Centraliza o texto dentro da célula. */
     line-height: 100px; /* Centraliza verticalmente o conteúdo da célula. */
-    background-color: #000000; /* Define a cor de fundo da célula como um tom de cinza mais claro. */
+    background-color: #390139; /* Define a cor de fundo da célula como um tom de cinza mais claro. */
     cursor: pointer; /* Mostra o cursor como uma mão quando passa por cima da célula. */
     border: 2px solid #000000; /* Adiciona uma borda sólida de 2px à volta da célula. */
 }
