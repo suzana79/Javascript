@@ -9,16 +9,6 @@ h1 {
     color: #000; 
 }
 
-p {
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-input[type="number"] {
-    padding: 5px;
-    font-size: 18px;
-}
-
 button {
     background-color: #8b61ed;
     color: #000;
